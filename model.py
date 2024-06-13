@@ -51,7 +51,7 @@ def speaker_identifier():
 
     df = pd.read_csv("C:/Users/sinha/Desktop/Voice-Biometric/data/complete_data.csv")  # target variable is boolean : 1 means sahil, 0 means unknown
     
-    Y = df.dropna()
+
     Y = df["speaker"]
     X = df.drop(columns=["speaker", "Unnamed: 0"])
 

@@ -3,9 +3,11 @@
 
 import sounddevice as sd
 import librosa
+import librosa as lb
 import numpy as np
 from scipy.io.wavfile import write
 import pandas as pd
+import os 
 
 #records your voice n times, where n is input by user
 
@@ -65,4 +67,4 @@ def appendIndividualToCompleteCSV():
 #createMfccCsv();
 
 #call this function to append speaker_name.csv of individual speaker into completedata.csv
-appendIndividualToCompleteCSV()
+#appendIndividualToCompleteCSV()

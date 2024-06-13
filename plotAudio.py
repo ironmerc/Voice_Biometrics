@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the audioFile
-sampleRate, data = read('data\\sahil10.wav')
+sampleRate, data = read('C:\\Users\\sinha\\Desktop\\Voice-Biometric\\data\\akshat29.wav')
 # Frame rate for the Audio
 print(sampleRate)
 
@@ -18,5 +18,5 @@ time = np.arange(0, duration, 1 / sampleRate)
 plt.plot(time, data)
 plt.xlabel('Time [s]')
 plt.ylabel('Amplitude')
-plt.title('sahil10.wav')
+plt.title('akshat.wav')
 plt.show()
